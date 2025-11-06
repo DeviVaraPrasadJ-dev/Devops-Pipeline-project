@@ -33,13 +33,13 @@ Build the Code: Jenkins uses Maven, a build tool, to compile the code. This step
 
 # Deploying the Application to Kubernetes
 
--Deploy to Kubernetes: Jenkins sends the Docker image to Kubernetes, a platform that helps manage and run applications consistently across different servers.
+-Deploy to Kubernetes: Using Jenkins the Docker image sent to Kubernetes.
 
--Verify Deployment: Jenkins checks to make sure the application is running smoothly in Kubernetes. This step ensures that the deployment was successful.
+-Verify Deployment: Jenkins checks the application is running smoothly in Kubernetes. This ensures that the deployment was successful.
 
 # Monitoring and Notifications
 
--Application Monitoring: Once deployed, Prometheus collects data on the application’s performance (like CPU and memory usage), while Grafana displays this data in dashboards. This allows the team to see how well 
+-Application Monitoring: Once deployed, Prometheus collects data on the application’s performance metrics, while Grafana displays this data in dashboards. This allows the team to see how well 
  the application is performing and quickly spot any issues.
 
 -Email Notification: Jenkins sends an email to the team to inform them that the deployment is complete and the application is live.
